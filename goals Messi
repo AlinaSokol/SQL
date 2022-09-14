@@ -1,2 +1,6 @@
 select la_liga_goals+copa_del_rey_goals+champions_league_goals AS res FROM goals;
 -- you will be given a table, goals, with columns la_liga_goals, copa_del_rey_goals, and champions_league_goals. Return a table with a column, res.
+
+
+SELECT position+roll*2 AS res FROM moves;
+--# write your statement here: you will be given a table 'moves' with columns 'position' and 'roll'. return a table with a column 'res'. #--
