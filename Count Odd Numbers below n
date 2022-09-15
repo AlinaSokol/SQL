@@ -1,0 +1,7 @@
+select n,
+  case
+  when mod(n, 2)=1
+  then (n-1)/2  
+  else n/2
+  end AS res
+  FROM oddcount;
